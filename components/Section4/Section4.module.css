@@ -1,0 +1,46 @@
+.apostrophe {
+    margin-right: 57px;
+}
+
+.container {
+    position: relative;
+    display: flex;
+}
+
+.wrapper {
+    overflow: hidden;
+    padding: 10px;
+}
+
+.content {
+    min-width: 100%;
+    display: flex;
+}
+
+.comment {
+    min-width: 100%;
+    margin-right: 10px;
+}
+
+.comment__text {
+    font-family: 'SFUIDisplay-Light', sans-serif;
+    max-width: 765px;
+    font-size: 32px;
+    line-height: 1.6;
+    margin-bottom: 60px;
+}
+
+.comment__author {
+    font-size: 16px;
+    width: 100%;
+}
+
+.comment__author__name {
+    font-weight: bold;
+}
+
+.slideButtons {
+    position: absolute;
+    right: 0;
+    transform: translateY(-100%);
+}

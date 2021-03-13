@@ -1,0 +1,28 @@
+.content {
+    width: 100%;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper > img {
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: 50% 50%;
+}
+
+.wrapper {
+    flex: 0.5;
+}
+
+.features {
+    flex: 0.4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

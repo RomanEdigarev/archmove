@@ -1,0 +1,39 @@
+.mainTitle {
+    font-family: 'New York Extra Large', sans-serif;
+    font-weight: bold;
+    font-size: 112px;
+    max-width: 870px;
+    margin-bottom: 48px;
+}
+
+.mainTitle > span {
+    color: #FD665E;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapperImage > img {
+    border-radius: 8px;
+    object-fit: contain;
+    width: 100%;
+}
+
+.wrapperImage {
+    flex: 0.8;
+    max-width: 765px;
+}
+
+.content__textBlock {
+    flex: 0.4;
+    margin-right: 24px;
+}
+
+.content__textBlock > p {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 290px;
+    margin-bottom: 48px;
+}

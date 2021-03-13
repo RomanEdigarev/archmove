@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imageWrapper {
+  position: relative;
+  margin-right: 125px;
+}
+
+.contentWrapper {
+}
+
+.cloud1,
+.cloud2 {
+  position: absolute;
+}
+
+.cloud1 {
+  top: 242px;
+  right: 0;
+
+}
+
+.cloud2 {
+  top: 98px;
+  left: 0;
+}

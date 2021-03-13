@@ -1,0 +1,14 @@
+.container {
+    color: white;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #FD665E;
+    transition: all 0.3s ease-in-out;
+}
+
+.container:hover {
+    background-color: #f14943;
+}

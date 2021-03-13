@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.container:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.container path {
+    transition: all 0.3s ease-in-out;
+}
+
+.container:hover > svg > path {
+    fill: #FD665E;
+}
+
+
+.buttons {
+    width: 104px;
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+}
